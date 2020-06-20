@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		10630C2B249E30BE000E18DE /* DemoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 10630C29249E30BE000E18DE /* DemoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10630C32249E30E9000E18DE /* DemoSDKServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10630C31249E30E9000E18DE /* DemoSDKServiceManager.swift */; };
+		10630C57249E4C88000E18DE /* DemoSDKServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10630C31249E30E9000E18DE /* DemoSDKServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10630C26249E30BE000E18DE /* DemoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10630C29249E30BE000E18DE /* DemoSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSDK.h; sourceTree = "<group>"; };
 		10630C31249E30E9000E18DE /* DemoSDKServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSDKServiceManager.swift; sourceTree = "<group>"; };
-		10630C55249E4739000E18DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10630C55249E4739000E18DE /* DemoSDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DemoSDK-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				10630C29249E30BE000E18DE /* DemoSDK.h */,
-				10630C55249E4739000E18DE /* Info.plist */,
+				10630C55249E4739000E18DE /* DemoSDK-Info.plist */,
 				10630C31249E30E9000E18DE /* DemoSDKServiceManager.swift */,
 			);
 			path = DemoSDK;
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10630C32249E30E9000E18DE /* DemoSDKServiceManager.swift in Sources */,
+				10630C57249E4C88000E18DE /* DemoSDKServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DemoSDK/Info.plist;
+				INFOPLIST_FILE = "DemoSDK/DemoSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,7 +296,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DemoSDK/Info.plist;
+				INFOPLIST_FILE = "DemoSDK/DemoSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

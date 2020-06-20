@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05887EA0C8C1FD619617ED8BC7B3FF97 /* DemoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA1BA23E6F7FC23EC72206085598DF /* DemoSDK-dummy.m */; };
-		339DE9261F318F5054DD2FAFB4886C33 /* DemoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 673859AA1C68E53080D0F07C698B6D18 /* DemoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		339DE9261F318F5054DD2FAFB4886C33 /* DemoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1ACAD934F78A4CA77A9F895B0B60FCE /* DemoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3676225CCC75D424503D793ED447DB7B /* Pods-DemoSDKTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8228597C1C48C266393D1976C43BDB /* Pods-DemoSDKTesting-dummy.m */; };
-		3A56086A08482D1D44EE44C5B969E9DD /* DemoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFBD5D6AB68FF5DEFA43520E51189E /* DemoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A56086A08482D1D44EE44C5B969E9DD /* DemoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 230D917B21598C5ADE132913E3AD954C /* DemoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F7924898658C73998673ADCE23D8633 /* Pods-DemoSDKTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F22CF67903E7FA83E6AC2C633FE10D /* Pods-DemoSDKTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B94BEE6DAD5C489EAB122D858A95EEB /* DemoSDKServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B72BDD64FEBC79973B186E302F894A /* DemoSDKServiceManager.swift */; };
+		896CDA69F4A9AFFAF9BC3B07844DC59C /* DemoSDK-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D1388B06810721BCB28DE3595D58E30F /* DemoSDK-Info.plist */; };
 		8D3CEBFCCCB96580377F3902C5A7812A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A93EFA69A2723560F4854C1DFB0D86D6 /* DemoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D7E6F74772BB52710F0917FF411BB /* DemoSDK-dummy.m */; };
 		B2759A3E8401A74D161953D4BE035098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F91BE75105BC8B995803170263903267 /* DemoSDKServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000496E8DBAFE13046F1565DE82FA0E /* DemoSDKServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,29 +29,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		053C3FE4B29A04D5C7793B00B0775766 /* Pods_DemoSDKTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSDKTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000496E8DBAFE13046F1565DE82FA0E /* DemoSDKServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoSDKServiceManager.swift; path = DemoSDK/DemoSDKServiceManager.swift; sourceTree = "<group>"; };
+		04FBB904674BBEBC41E4C4EDF73251D5 /* DemoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemoSDK.modulemap; sourceTree = "<group>"; };
+		053C3FE4B29A04D5C7793B00B0775766 /* Pods_DemoSDKTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoSDKTesting.framework; path = "Pods-DemoSDKTesting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6DD4E3B27B9E78AC8ABBBD4B55A492 /* DemoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemoSDK-Info.plist"; sourceTree = "<group>"; };
 		0FD2E5EC4A491C6D5DF3F90056708B9B /* Pods-DemoSDKTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoSDKTesting.release.xcconfig"; sourceTree = "<group>"; };
-		119D1AD9A4CE878FF7DB4677A41AEB24 /* DemoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		146F7246E40744E1DC16672540139948 /* DemoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemoSDK.modulemap; sourceTree = "<group>"; };
+		119D1AD9A4CE878FF7DB4677A41AEB24 /* DemoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DemoSDK.framework; path = DemoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DD4DA664809DAA51DE5A7938D73072 /* Pods-DemoSDKTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoSDKTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		1FE287A16E03E8078FB2FDB025B4D8BC /* Pods-DemoSDKTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoSDKTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		230D917B21598C5ADE132913E3AD954C /* DemoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DemoSDK.h; path = DemoSDK/DemoSDK.h; sourceTree = "<group>"; };
 		23DA3DD21452EA408073D73B47E9CE61 /* Pods-DemoSDKTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoSDKTesting-Info.plist"; sourceTree = "<group>"; };
+		261D7E6F74772BB52710F0917FF411BB /* DemoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemoSDK-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		349BB16BABE057A7F4E8C77C86EDED25 /* DemoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemoSDK-Info.plist"; sourceTree = "<group>"; };
 		3B2BFEA1DCFC4E0462D1EA5A1D99DFC4 /* Pods-DemoSDKTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoSDKTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
-		41B2722B5DFA6364592BE02681531650 /* DemoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoSDK.release.xcconfig; sourceTree = "<group>"; };
 		48F22CF67903E7FA83E6AC2C633FE10D /* Pods-DemoSDKTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoSDKTesting-umbrella.h"; sourceTree = "<group>"; };
-		4CAA1BA23E6F7FC23EC72206085598DF /* DemoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemoSDK-dummy.m"; sourceTree = "<group>"; };
-		673859AA1C68E53080D0F07C698B6D18 /* DemoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoSDK-umbrella.h"; sourceTree = "<group>"; };
-		6ACFBD5D6AB68FF5DEFA43520E51189E /* DemoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DemoSDK.h; path = DemoSDK/DemoSDK.h; sourceTree = "<group>"; };
 		7B8228597C1C48C266393D1976C43BDB /* Pods-DemoSDKTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoSDKTesting-dummy.m"; sourceTree = "<group>"; };
-		9B98FC0E24F3DFCC531CD7E15C3A4E9E /* DemoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DemoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A84B5FC5F319840E8FB81A8F7E908CA6 /* DemoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoSDK.debug.xcconfig; sourceTree = "<group>"; };
-		C0B72BDD64FEBC79973B186E302F894A /* DemoSDKServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoSDKServiceManager.swift; path = DemoSDK/DemoSDKServiceManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B84A8C3A8C17593AA760CB32C6AACC82 /* DemoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoSDK.release.xcconfig; sourceTree = "<group>"; };
+		BDC836BE2093A519EEEF05180470001A /* DemoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoSDK-prefix.pch"; sourceTree = "<group>"; };
+		C1ACAD934F78A4CA77A9F895B0B60FCE /* DemoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoSDK-umbrella.h"; sourceTree = "<group>"; };
+		D1388B06810721BCB28DE3595D58E30F /* DemoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DemoSDK-Info.plist"; path = "DemoSDK/DemoSDK-Info.plist"; sourceTree = "<group>"; };
+		D6D7730D9B9514A2CD78FFC07103DBA1 /* DemoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoSDK.debug.xcconfig; sourceTree = "<group>"; };
 		E0C350CFD0BA603EB4B54FD9DE2DF7E9 /* Pods-DemoSDKTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoSDKTesting.modulemap"; sourceTree = "<group>"; };
-		F0B6220435AD00F4F9EB85EFFC5B7ED7 /* DemoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoSDK-prefix.pch"; sourceTree = "<group>"; };
 		FA9AB87597DBBD00BF3897B89F5430F6 /* Pods-DemoSDKTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoSDKTesting-frameworks.sh"; sourceTree = "<group>"; };
+		FE541CFD75787946681A8C91E6A5646B /* DemoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DemoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0022F0F5B557CD43CFA577CBAC514D85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FBB904674BBEBC41E4C4EDF73251D5 /* DemoSDK.modulemap */,
+				261D7E6F74772BB52710F0917FF411BB /* DemoSDK-dummy.m */,
+				0E6DD4E3B27B9E78AC8ABBBD4B55A492 /* DemoSDK-Info.plist */,
+				BDC836BE2093A519EEEF05180470001A /* DemoSDK-prefix.pch */,
+				C1ACAD934F78A4CA77A9F895B0B60FCE /* DemoSDK-umbrella.h */,
+				D6D7730D9B9514A2CD78FFC07103DBA1 /* DemoSDK.debug.xcconfig */,
+				B84A8C3A8C17593AA760CB32C6AACC82 /* DemoSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../DemoSDKTesting/Pods/Target Support Files/DemoSDK";
+			sourceTree = "<group>";
+		};
 		00576CCF49F85B8D761174B245736F42 /* Pods-DemoSDKTesting */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,14 +107,6 @@
 			path = "Target Support Files/Pods-DemoSDKTesting";
 			sourceTree = "<group>";
 		};
-		0C26E5F960E56EDC06D32662C143D5A1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9B98FC0E24F3DFCC531CD7E15C3A4E9E /* DemoSDK.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1628932E18FD4F83F061DFC3909E0CAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,24 +116,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		476FFFEF1D4864C016F89AA4248A57BC /* DemoSDK */ = {
+		24FDFC4FF12B4132B0C252074051E56D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6ACFBD5D6AB68FF5DEFA43520E51189E /* DemoSDK.h */,
-				C0B72BDD64FEBC79973B186E302F894A /* DemoSDKServiceManager.swift */,
-				0C26E5F960E56EDC06D32662C143D5A1 /* Pod */,
-				97E5664EE2B4B6AFE22C84AAB0962877 /* Support Files */,
+				FE541CFD75787946681A8C91E6A5646B /* DemoSDK.podspec */,
 			);
-			name = DemoSDK;
-			path = ../../DemoSDK;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		594A007E574083D4C4A09E43A614D408 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				476FFFEF1D4864C016F89AA4248A57BC /* DemoSDK */,
+				87FCA582068FF2712BE8813C1C716C9C /* DemoSDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		87FCA582068FF2712BE8813C1C716C9C /* DemoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				230D917B21598C5ADE132913E3AD954C /* DemoSDK.h */,
+				D1388B06810721BCB28DE3595D58E30F /* DemoSDK-Info.plist */,
+				0000496E8DBAFE13046F1565DE82FA0E /* DemoSDKServiceManager.swift */,
+				24FDFC4FF12B4132B0C252074051E56D /* Pod */,
+				0022F0F5B557CD43CFA577CBAC514D85 /* Support Files */,
+			);
+			name = DemoSDK;
+			path = ../../DemoSDK;
 			sourceTree = "<group>";
 		};
 		8D4CD5902A71F834D1135D259F588C5C /* Targets Support Files */ = {
@@ -133,21 +151,6 @@
 				00576CCF49F85B8D761174B245736F42 /* Pods-DemoSDKTesting */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		97E5664EE2B4B6AFE22C84AAB0962877 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				146F7246E40744E1DC16672540139948 /* DemoSDK.modulemap */,
-				4CAA1BA23E6F7FC23EC72206085598DF /* DemoSDK-dummy.m */,
-				349BB16BABE057A7F4E8C77C86EDED25 /* DemoSDK-Info.plist */,
-				F0B6220435AD00F4F9EB85EFFC5B7ED7 /* DemoSDK-prefix.pch */,
-				673859AA1C68E53080D0F07C698B6D18 /* DemoSDK-umbrella.h */,
-				A84B5FC5F319840E8FB81A8F7E908CA6 /* DemoSDK.debug.xcconfig */,
-				41B2722B5DFA6364592BE02681531650 /* DemoSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../DemoSDKTesting/Pods/Target Support Files/DemoSDK";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -224,7 +227,7 @@
 			buildConfigurationList = 1C969EF0477190124FEF8710AD41B2C5 /* Build configuration list for PBXNativeTarget "DemoSDK" */;
 			buildPhases = (
 				68F34650407A6B8BCBFE23F98EF417AE /* Headers */,
-				B35F9D04588DAE8541537997B364F70D /* Sources */,
+				A44C34F52FEE404A0AAA98959F3FA056 /* Sources */,
 				50D1632AA37632B8C30FD5A9222CF8D0 /* Frameworks */,
 				BE891FA1C4B6081F1357123589747679 /* Resources */,
 			);
@@ -247,7 +250,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -291,12 +294,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B35F9D04588DAE8541537997B364F70D /* Sources */ = {
+		A44C34F52FEE404A0AAA98959F3FA056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05887EA0C8C1FD619617ED8BC7B3FF97 /* DemoSDK-dummy.m in Sources */,
-				7B94BEE6DAD5C489EAB122D858A95EEB /* DemoSDKServiceManager.swift in Sources */,
+				A93EFA69A2723560F4854C1DFB0D86D6 /* DemoSDK-dummy.m in Sources */,
+				896CDA69F4A9AFFAF9BC3B07844DC59C /* DemoSDK-Info.plist in Sources */,
+				F91BE75105BC8B995803170263903267 /* DemoSDKServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +318,7 @@
 /* Begin XCBuildConfiguration section */
 		298B94489DF4E74DEF2D4E7FDF21182D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B2722B5DFA6364592BE02681531650 /* DemoSDK.release.xcconfig */;
+			baseConfigurationReference = B84A8C3A8C17593AA760CB32C6AACC82 /* DemoSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -492,7 +496,7 @@
 		};
 		E98202AC6953022E918312A7A2388EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A84B5FC5F319840E8FB81A8F7E908CA6 /* DemoSDK.debug.xcconfig */;
+			baseConfigurationReference = D6D7730D9B9514A2CD78FFC07103DBA1 /* DemoSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
